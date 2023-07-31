@@ -1,0 +1,5 @@
+@use "global/variable";
+
+.l-main {
+  max-width: variable.$MAX_WIDTH;
+}

@@ -1,0 +1,5 @@
+@use "global/variable";
+
+.l-header {
+  max-width: variable.$MAX_WIDTH;
+}

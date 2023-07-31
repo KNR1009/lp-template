@@ -1,0 +1,22 @@
+
+doctype html
+html(lang='ja')
+  head
+    meta(charset='UTF-8')
+    meta(name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
+    meta(name="description" content="Googleアナリティクスの拡張機能によってユーザーの行動をGoogleアナリティクスが持っている従来の基本機能よりも詳細に分析できるサービスく")
+
+  
+    block title
+    title GAfokus 
+    link(rel='stylesheet' href='./assets/styles/index.css')
+    block end_head
+
+  body
+    include ./_header
+    main.l-main 
+      block contents
+    include ./_footer
+    script(src='./assets/scripts/index.js')
+
+

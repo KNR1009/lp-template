@@ -1,0 +1,5 @@
+@use "global/variable";
+
+.l-footer {
+  max-width: variable.$MAX_WIDTH;
+}
